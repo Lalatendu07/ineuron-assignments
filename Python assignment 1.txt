@@ -1,0 +1,49 @@
+1. In the below elements which of them are values or expression? eg:-values can be integer or string and expressions will be mathematical operators.
+*,'hello',-87.8,-,/,+,6
+
+Ans. values = 'hello' , -87.8 , 6
+     expression = * , - , /, +
+
+2.What is the difference between string and variable?
+
+Ans. A variable is a store of information and a string is a type of information which we can store     in a variable.
+    eg:- s = "full stack data science"
+         Here 's' is a variable and ' "full stack data science" ' is a string.
+
+3.Describe three different data types.
+
+Ans. Three different data types are -
+     1. Integer:- In python it contains negative or positive whole numbers.
+     2. String:-A string is a collection of one or more characters put in a single or double quote.
+     3.Lists:- A collection of data sits between square bracket( [] ).Ex:-[1,2,3,4,5].
+
+4.What is an expression made up of? What do all expressions do?
+
+Ans. An expression is a combination of operators and operands that is interpreted to produce some other value. Ex:-x = a + 10.
+
+5.This assignment statements, like spam = 10.What is the difference between an expression and a statement?
+
+Ans.An expression always evaluates to a values.And, a statement does something, like creating a variable or displaying a value, it only does whatever the statement says.In the statement spam=10 the value '10' is assigned to variable 'spam'
+
+6.After running the following code, what does the variable bacon contain?
+  bacon=22
+  bacon+1
+Ans. output = 23 ,but bacon=22.
+
+7.What should the values of the following two terms be?
+  'spam'+'spamspam'
+   'spam'*3
+Ans.In both the cases the output will be 'spamspamspam'.
+
+8.Why is eggs a valid variable name while 100 is invalid?
+Ans.Because a variable name cannot start with a number, it can only be started with a letter or the underscore character.
+
+9.What three functions can be used to get the integer , floating-point number, or string version of  a value? 
+Ans. Function int() to get integer version of a value.
+     Function float() to get floating-point version of a value.
+     Function str() to get string version of a value.
+
+10.Why does this expression cause an error?How can you fix it?
+   'I have eaten'+99+'burritos.'
+Ans.It is showing error because strings and integer can't be added.It can be fixed by putting single quote on 99. Like this,'I have eaten'+'99'+'burritos.'
+     
