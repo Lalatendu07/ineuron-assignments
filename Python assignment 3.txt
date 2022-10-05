@@ -1,14 +1,17 @@
 1. Why are functions advantageous to have in your programs?
-Ans.Functions are advantageous to programs because it avoids repetition and makes a high degree of code reusing.And it aslo provides better modularity for an application.
+Ans.Functions are advantageous to programs because it avoids repetition and makes a high degree of code reusing.
+And it aslo provides better modularity for an application.
 
 2. When does the code in a function run: when it's specified or when it's called?
 Ans.The code in a function executes when the function is called, not when the function is defined.
 
 3.What statement creates a function?
-Ans.The "def" keyword is a statement for defining a function in python.Start a function with the def keyword, specify a name followed by a colon (:) sign. The “def” call creates the function object and assigns it to the name given. Ex:- def test_fn(): .
+Ans.The "def" keyword is a statement for defining a function in python.Start a function with the def keyword, specify a name followed by a colon (:) sign.
+The “def” call creates the function object and assigns it to the name given. Ex:- def test_fn(): .
 
 4. What is the difference between a function and a function call?
-Ans.A function is a block of code that does a particular operation and returns a result. It usually accepts inputs as parameters and returns a result. The parameters are not mandatory. A function call is the code used to pass control to a function.
+Ans.A function is a block of code that does a particular operation and returns a result.
+It usually accepts inputs as parameters and returns a result. The parameters are not mandatory. A function call is the code used to pass control to a function.
 
 5. How many global scopes are there in a Python program? How many local scopes?
 Ans.There's only one global python scope per program execution.At any given time during execution, you'll have at most four active python scopes: local, enclosing, global and built in, depending on where you are in the code.
