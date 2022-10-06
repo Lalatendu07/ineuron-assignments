@@ -1,0 +1,67 @@
+1. What exactly is []?
+Ans.[] is an empty list.These are used to define "list literals", allows to declare a list and its contents in a program.
+
+2.In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value?(Assume[2,4,6,8,10]are in spam.)
+Let's pretend the spam includes the list ['a','b','c','d'] for the next three queries.
+Ans.spam=[2,4,6,8,10]
+    spam[2]='hello'
+    spam=[2,4,'hello',8,10]
+
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans.Output=8.
+
+4. What is the value of spam[-1]?
+Ans.Output='d'
+
+5. What is the value of spam[:2]?
+Ans.Output=2,3
+
+Let's pretend bacon has the list [3.14,'cat',11,'cat',True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans.Output=1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans.bacon=[3.14, 'cat', 11, 'cat', True, 99].
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans.bacon=[3.14, 11, 'cat', True, 99].
+
+9. What are the list concatenation and list replication operators?
+Ans.The operator for list concatenation is "+", while the operator for replication is "*".
+
+10. What is difference between the list methods append() and insert()?
+Ans.The only difference between append() and insert() is that insert function allows us to add an element at a specified index of the list unlike append() where we can add the element only at end of the list.
+
+11. What are the two methods for removing items from a list?
+Ans.The two methods for removing items from a list are pop() and remove().
+
+12. Describe how list values and string values are identical.
+Ans.A string is a sequence of characters between single or double quotes. A list is a sequence of items, where each item could be anything (an integer, a float, a string, etc).
+The similarity between Lists and Strings in Python is that both are sequences.
+
+13. What's the difference between tuples and lists?
+Ans. LIST
+     -List is mutable.
+     -List iteration is slow.
+     -List consumes more memory.
+     -List provides many in-built methods.
+     -List is useful for insertion and deletion operations.
+
+     TUPLE
+     -Tuple is immutable.
+     -Tuple iteration is faster.
+     -Tuple consumes less memory.
+     -Tuple have less in-built methods.
+     -Tuple is useful for readonly operations like accessing elements.
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans.num=(42,),the trailing comma is mandatory.
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans.By using tuple() we can get list value's tuple form.In same way by using list() we can get tuple value's list form.
+
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Ans.Variables will contain references to list values rather than list values themselves.
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans.The copy() create reference to original object. If copied object is been changed then the original object also changed. .deepcopy() creates new object and does real copying of original object to new one. Changing new deepcopied object doesn't affect original object.
