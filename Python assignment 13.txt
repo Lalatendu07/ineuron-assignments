@@ -1,6 +1,6 @@
 1. What advantages do Excel spreadsheets have over CSV spreadsheets?
 Ans.In Excel reading large data set is much easier for the end user to read, comprehend
-and understand when compared to CSV. Excel can perform VBA coding, summaries easily when compared to CSV. 
+and understand when compared to CSV. Excel can perform VBA coding, functions, formulas and create summaries easily when compared to CSV. 
 
 2.What do you pass to csv.reader() and csv.writer() to create reader and writer objects?
 Ans.The file object is passed to csv.reader() and csv.writer() to create reader and writer objects.
