@@ -5,8 +5,7 @@ Ans. RGBA stands for Red-Green-Blue-Alpha.
 Ans.By using ImageColor.getcolor() ,it gives RGBA value of any images.
 
 3. What is a box tuple, and how does it work?
-Ans. A box tuple is a tuple value of four integers: the left-edge x-coordinate, the top-edge y-coordinate,the width, and the height, respectively.
-The box tuple submodule provides read-only access for the tuple userdata type. It allows, for a single tuple: selective retrieval of the field contents, retrieval of information about size, iteration over all the fields, and conversion to a Lua table.
+Ans. A box tuple is a tuple value of four integers: the left-edge x-coordinate, the top-edge y-coordinate,the width, and the height, respectively. The box tuple submodule provides read-only access for the tuple userdata type. It allows, for a single tuple: selective retrieval of the field contents, retrieval of information about size, iteration over all the fields, and conversion to a Lua table.
 
 4. Use your image and load in notebook then, How can you find out the width and height of an Image object?
 Ans.By using .width and .height property of Image we can get the height and width of the image object.
